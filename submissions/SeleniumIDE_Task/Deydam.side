@@ -1,27 +1,27 @@
 {
-  "id": "f1d6a51e-5afd-4347-8655-415929fae639",
+  "id": "d05918d3-8f80-4043-8760-75ef8cb39e96",
   "version": "2.0",
   "name": "Deydam",
   "url": "https://www.deydam.com",
   "tests": [{
-    "id": "254cff46-f426-43b8-bbd3-626d3915fb43",
+    "id": "f67170a8-3948-42c9-9ee2-ddc215dcb601",
     "name": "Untitled",
     "commands": [{
-      "id": "29b8855c-7bdc-4386-856a-6feecbf11bed",
+      "id": "1544a6a5-4cf5-475b-a3ef-68c45a31bb15",
       "comment": "",
       "command": "open",
       "target": "/",
       "targets": [],
       "value": ""
     }, {
-      "id": "ca633a2c-ac1d-40a7-bfbb-1489ab7db56f",
+      "id": "17a84528-f720-43af-b6dd-7056da2c43f6",
       "comment": "",
       "command": "setWindowSize",
-      "target": "1004x708",
+      "target": "1280x760",
       "targets": [],
       "value": ""
     }, {
-      "id": "6dc29af6-5387-46b2-933d-6bcc3bcb5b39",
+      "id": "d1a3e8e9-c9db-4935-bf92-c9bfcca8600e",
       "comment": "",
       "command": "click",
       "target": "linkText=Get Started",
@@ -36,22 +36,7 @@
       ],
       "value": ""
     }, {
-      "id": "84b5f014-e5bf-40c5-9af4-7e15ed789765",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Login here",
-      "targets": [
-        ["linkText=Login here", "linkText"],
-        ["css=span > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Login here')]", "xpath:link"],
-        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/p/span/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
-        ["xpath=//span/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Login here')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "ae26d00e-d0a6-4f79-9b89-4f4fba9aab8a",
+      "id": "ec20b74e-9ece-4ba6-bd85-04a3bee979c8",
       "comment": "",
       "command": "click",
       "target": "id=username",
@@ -60,26 +45,12 @@
         ["name=username", "name"],
         ["css=#username", "css:finder"],
         ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "9ab0d28a-c745-41e8-add7-ac3f5f89cff4",
-      "comment": "",
-      "command": "click",
-      "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "6196bb22-fbd3-43a4-889b-53ddbafa929a",
+      "id": "eb0fc723-f852-4045-a385-ed39160fde32",
       "comment": "",
       "command": "type",
       "target": "id=username",
@@ -88,12 +59,40 @@
         ["name=username", "name"],
         ["css=#username", "css:finder"],
         ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
       "value": "username1"
     }, {
-      "id": "d23c1b4c-d738-498d-af97-339a522fc9e9",
+      "id": "7573d66c-ced4-4a96-a424-fe73cf605b62",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57f30f70-f70b-4693-9893-df34a6ba9344",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "chima.stanley@yahoo.com"
+    }, {
+      "id": "a76c4b67-b40e-457e-a262-3c0d341d380e",
       "comment": "",
       "command": "click",
       "target": "id=password",
@@ -102,12 +101,12 @@
         ["name=password", "name"],
         ["css=#password", "css:finder"],
         ["xpath=//input[@id='password']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/input", "xpath:position"]
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "288a3163-b462-46ea-b161-6d35bc2271de",
+      "id": "e3bebbe1-957f-4137-b1fd-2130c259bb69",
       "comment": "",
       "command": "type",
       "target": "id=password",
@@ -116,38 +115,66 @@
         ["name=password", "name"],
         ["css=#password", "css:finder"],
         ["xpath=//input[@id='password']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/input", "xpath:position"]
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
       ],
       "value": "dummypass"
     }, {
-      "id": "11a20cc9-c195-4a94-ab79-289cba2dcf2c",
+      "id": "d3eb65c8-38fd-486f-adda-ddbc8172f0e4",
       "comment": "",
       "command": "click",
-      "target": "css=.btn-primary",
+      "target": "id=confirmPassword",
       "targets": [
-        ["css=.btn-primary", "css:finder"],
-        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
-        ["xpath=//form/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "78d21dd6-2286-41a3-8cf6-d4102da957ff",
+      "id": "2e5acc0c-0217-4eb2-aa05-b5df5274e63f",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["name=confirmPassword", "name"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "dummypass"
+    }, {
+      "id": "b200cea4-63e5-472e-a9ab-c8b46f93d1b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/main/div/div[2]/div/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb34ad05-3abf-455d-9ef5-80e70be6166b",
       "comment": "",
       "command": "assertTitle",
-      "target": "Deydam | Login",
+      "target": "Deydam | Sign Up",
       "targets": [],
       "value": ""
     }]
   }],
   "suites": [{
-    "id": "dc3f3e11-98b9-4a5c-98a6-a7a4bf5df0b1",
+    "id": "584324b7-548a-4857-bcfc-0a605eb920aa",
     "name": "Default Suite",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["254cff46-f426-43b8-bbd3-626d3915fb43"]
+    "tests": ["f67170a8-3948-42c9-9ee2-ddc215dcb601"]
   }],
   "urls": ["https://www.deydam.com/"],
   "plugins": []
